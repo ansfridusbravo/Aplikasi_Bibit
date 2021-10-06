@@ -117,6 +117,6 @@ clf.fit(X, y)
 prediction = clf.predict(input_df)
 prediction_proba = clf.predict_proba(input_df)
 
-st.subheader('Bibit yang direkomendasikan :')
+st.subheader('Prediksi Bibit :')
 st.write(prediction)
 
