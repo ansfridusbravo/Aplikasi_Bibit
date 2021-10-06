@@ -104,10 +104,6 @@ df['KelasDrainase'] = df['KelasDrainase'].replace("Lancar", "2")
 df['KelasDrainase'] = df['KelasDrainase'].replace("Sedang", "3")
 df['KelasDrainase'] = df['KelasDrainase'].replace("Terhambat", "4")
 
-#st.write(df)
-
-#features = df.columns[1:6]
-#df = df.drop('Unnamed:  0', axis=1)
 X = df.drop('JenisBibit', axis=1)
 y = df['JenisBibit']
 
